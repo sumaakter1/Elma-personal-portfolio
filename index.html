@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>hello word</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- font family font-1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font family font-2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css style link  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <!-- logo  -->
+          <a
+            class="navbar-brand nav-logo fw-bold "
+            href="#"
+            >Elma Akter</a
+          >
+          <!-- toggler button  -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- sidebar  -->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- sidebar header  -->
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title toggle-nav-logo fs-4 fw-bold border border-2 border-primary rounded-circle p-2"
+                id="offcanvasNavbarLabel"
+              >
+                EA.
+              </h5>
+              <button
+                type="button"
+                class="btn-close shadow-none border-0"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- sidebar body  -->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-lg-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-2 primary-underline"
+                    aria-current="page"
+                    href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 primary-underline" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-2 primary-underline"
+                    href="#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-2 primary-underline"
+                    href="#testimonials"
+                    >Testimonials</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 primary-underline" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- bootstrap js file  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
