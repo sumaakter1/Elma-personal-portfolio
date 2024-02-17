@@ -6,16 +6,15 @@ body {
   padding-top: 70px;
 }
 :root {
-  --primary-color: #944E63;
-  --secondary-color: #B47B84;
+  --primary-color: #944e63;
+  --secondary-color: #b47b84;
 }
-
 /* navbar  */
 .toggle-nav-logo,
 .nav-logo {
   font-family: "Tangerine", cursive;
 }
-.nav-logo {
+.about-title,.nav-logo{
   position: relative;
 }
 
@@ -23,7 +22,11 @@ body {
   content: "";
   width: 120%;
   height: 2px;
-  background-image: linear-gradient(to right, var( --primary-color), var(--secondary-color));
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   position: absolute;
   bottom: 10px;
   left: 0;
@@ -34,45 +37,60 @@ body {
   position: relative;
   color: var(--primary-color);
 }
-  .primary-underline::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--primary-color);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
+.primary-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
 .primary-underline:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
 /* banner section styles  */
-.banner{
+.banner {
   height: 90vh;
   padding-top: 50px;
-  
 }
-.name{
+.name {
   color: var(--primary-color);
 }
-.banner-image{
-  background-image: linear-gradient(to right, var( --primary-color), var(--secondary-color));
-
+.banner-image {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
 }
-@media(max-width: 992px){
-  .container{
+@media (max-width: 992px) {
+  .container {
     margin-top: 5px;
   }
-  .image{
-   align-items: center;
-   margin-top: 20px;
+  .image {
+    align-items: center;
+    margin-top: 20px;
   }
 }
-
-
-
+/* about styles  */
+.skill-btn{
+  margin: 4px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+@media (max-width:768px) {
+  .about {
+    margin-top: 380px;
+  }
+}
+.tools-image{
+  border-radius: 15px;
+}
