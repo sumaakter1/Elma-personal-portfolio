@@ -117,8 +117,8 @@
     </header>
     <!-- banner section  -->
 
-    <section class="banner">
-      <div class="container">
+    <section class="container">
+      <div class="banner" id="home">
         <div class="row d-flex justify-content-center align-items-center pt-5">
           <div class="col-lg-6 col-md-6">
             <h1>Hi</h1>
@@ -156,7 +156,7 @@
     <!-- main section start  -->
     <main class="container pt-5">
       <!-- about section  -->
-      <section class="">
+      <section id="about">
         <div
           class="about d-flex flex-column justify-content-center align-items-center"
         >
@@ -176,38 +176,141 @@
             </p>
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col ">
+        <div class="row mt-4 d-none">
+          <div class="col">
             <h4 class="text-center mb-4">Skills</h4>
-            <button class="skill-btn">Lead Generation
-            </button>
-            <button class="skill-btn">Email List Building</button>
-            <button class="skill-btn">Prospect List Building</button>
-            <button class="skill-btn">Linkedin Research</button>
-            <button class="skill-btn">Linkedin Sales Navigator
-            </button>
-            <button class="skill-btn">Web Research</button>
-            <button class="skill-btn">Data Entry</button>
-            <button class="skill-btn">Data Mining</button>
-            <button class="skill-btn">Copy Paste</button>
-
+            <button class="skill-btn border-0">Lead Generation</button>
+            <button class="skill-btn border-0">Email List Building</button>
+            <button class="skill-btn border-0">Prospect List Building</button>
+            <button class="skill-btn border-0">Linkedin Research</button>
+            <button class="skill-btn border-0">Linkedin Sales Navigator</button>
+            <button class="skill-btn border-0">Web Research</button>
+            <button class="skill-btn border-0">Data Entry</button>
+            <button class="skill-btn border-0">Data Mining</button>
+            <button class="skill-btn border-0">Copy Paste</button>
           </div>
-          <div class="col  ">
+          <div class="col">
             <h4 class="text-center mb-4">Tools</h4>
-            <img class=" tools-image m-2" src="images/salesql.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/apollo.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/pipileads.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/kendo.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/hunter.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/clearbit.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/lusha.png" alt="">
-            <img class="img-fluid tools-image m-2" src="images/contact.png" alt="">
-            </div>
+            <img class="tools-image m-2" src="images/salesql.png" alt="" />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/apollo.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/pipileads.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/kendo.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/hunter.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/clearbit.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/lusha.png"
+              alt=""
+            />
+            <img
+              class="img-fluid tools-image m-2"
+              src="images/contact.png"
+              alt=""
+            />
           </div>
+        </div>
       </section>
     </main>
+    <!-- footer section  -->
+    <footer class="h-100 mb-5" id="contact">
+      <section class="container pt-5">
+        <div class="row row-cols-lg-2 row-cols-1">
+          <div class="col contact-left">
+            <h5>- Let's connect</h5>
+            <h2 class="fw-bolder pt-3">Get In Touch</h2>
+            <p>
+              I'm currently avaliable to take on new projects, so feel free to
+              send me a message about anything that you want to run past me. You
+              can contact anytime at 24/7
+            </p>
+              <a href="" class="text-white">elmahtk1@gmail.com</a>
+            <p>Dhaka, Bangladesh</p>
+            <div class="social-media">
+              <ul class="d-flex ps-0" >
+                <li>
+                  <a href="https://www.facebook.com/elmahtk1" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/elmahtk1" target="_blank"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/elmahtk1/" target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://bd.linkedin.com/in/elmahtk1" target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col contact-right shadow p-4">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class="contact-form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="e7a1056e-5a58-452c-8275-1561cc404ffb"
+              />
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="contact-inputs w-100"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                class="contact-inputs w-100"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="message"
+                class="contact-inputs w-100"
+                placeholder="Write something..."
+                required
+              ></textarea>
+              <button type="submit" class="btn-color">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
 
     <!-- bootstrap js file  -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
