@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   /* border: solid rgb(154, 180, 94); */
+  margin: 0;
 }
 body {
   padding-top: 70px;
@@ -74,7 +75,7 @@ body {
 /* banner section styles  */
 .banner {
   height: 90vh;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .name {
   color: var(--primary-color);
@@ -95,7 +96,6 @@ body {
 .tools-image {
   border-radius: 15px;
 }
-
 /* footer styles  */
 .contact-left {
   background-color: var(--primary-color);
@@ -177,6 +177,10 @@ body {
     align-items: center;
     margin-top: 20px;
   }
+  .about-section p{
+    text-align: justify;
+  }
+
   /* footer  */
   .contact-left{
     width: 80%;
@@ -187,3 +191,7 @@ body {
     margin: auto;
   }
 }
+
+
+
+

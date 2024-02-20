@@ -14,3 +14,15 @@
           link.classList.add('active');
         });
       });
+
+      // ellipsis 
+      document.addEventListener("DOMContentLoaded", function() {
+        var aboutContent = document.getElementById("about-content");
+        aboutContent.addEventListener("click", function() {
+          if (aboutContent.style.height === "100px") {
+            aboutContent.style.height = "auto";
+          } else {
+            aboutContent.style.height = "100px";
+          }
+        });
+      });
