@@ -166,14 +166,12 @@ body {
 }
 
 /* media queries  */
-@media (max-width: 991px) {
-  .about {
-    margin-top: 250px;
-  }
-}
 @media (max-width: 992px) {
   .container {
     margin-top: 5px;
+  }
+  .about-section {
+    margin-top: 250px;
   }
   .image {
     align-items: center;
